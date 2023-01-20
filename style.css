@@ -1,0 +1,32 @@
+/* Styling goes in this file */
+
+body {
+	font-family: Arial;
+}
+
+/* Any element with the class centered should have centered text */
+.centered {
+	text-align: center;
+}
+
+.header-row {
+	background-color: blue;
+}
+
+.leftaligned {
+	text-align: left;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-left {
+	width: 75%;
+	height: 100vh;
+}
+
+.flex-right {
+	width: 25;
+}
