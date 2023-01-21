@@ -19,14 +19,34 @@ body {
 
 .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .flex-left {
 	width: 75%;
 	height: 100vh;
+	justify-content: center;
 }
 
 .flex-right {
 	width: 25;
+	justify-content: center;
+}
+
+.rectangle {
+  fill: lightskyblue;
+}
+
+.rectangle:hover {
+  fill: lightblue;
+}
+
+
+.rectangle {
+  fill: lightskyblue;
+}
+
+
+.circle:hover {
+	stroke-width: 3;
 }

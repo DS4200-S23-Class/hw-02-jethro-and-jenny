@@ -9,9 +9,7 @@
 
 
 <body>
- 
     <div id="data-abstraction">
-
         <div class="info">
             <header class="centered">Dataset Types</header>
             <table> 
@@ -23,53 +21,112 @@
                 <tr>
                     <th>Airports</th>
                     <th>https://geo-massdot.opendata.arcgis.com/datasets/17eb7e286f4e4942aeef500f5ef6bfcd_0/explore?location=42.023945%2C-71.694162%2C8.00&showTable=true</th>
-                    <th>Dataset Type TBD</th>
+                    <th>Table</th>
                 </tr>
                 <tr>
                     <th>Google Web</th>
                     <th>hhttps://snap.stanford.edu/data/web-Google.html</th>
-                    <th>Dataset Type TBD</th>
+                    <th>Network</th>
                 </tr>
                 <tr>
                     <th>UFO Sightings</th>
                     <th>https://www.kaggle.com/datasets/NUFORC/ufo-sightings?resource=download</th>
-                    <th>Dataset Type TBD</th>
+                    <th>Table</th>
                 </tr>
             </table>
+        </div>
 
         <div class="info">
+
             <header class="centered">Data Types</header>
+
+
+
+            <!-- AIRPORT DATATYPES -->
             <header class="leftaligned">Airports</header>
                 <ul>
                     <li>Datatype of the columns and rows</li>
-                    <li>Attributes</li>
+                    <ul>
+                        <li>AIRPORT_NAME --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
+                        <li>LATITUDE --> Position</li>
+                        <li>LONGITUDE --> Position</li>
+                        <li>Rows --> Items</li>
+                    </ul>
                 </ul>
-            <header class="leftaligned">Google Web</header>
-                <ul>
-                    <li>Datatype of the columns and rows</li>
-                    <li>Attributes</li>
-                </ul>
-            <header class="leftaligned">UFO Sightings</header>
-                <ul>
-                    <li>Datatype of the columns and rows</li>
-                    <li>Attributes</li>
-                </ul>
-       
-        <div id="tdecoration">
-            <header class="centered">Task Abstraction</header>
-            <div class="container">
-                <div class="flex-left">
-                    <!-- Add image -->
-                    <!-- Identify high, medium, and low level actions of visualization + target -->
-                </div>
 
-                <div class="flex_right">
-                    <!-- Add image -->
-                    <!-- Identify high, medium, and low level actions of visualization + target -->
-                </div>
+
+
+            <!-- GOOGLE WEB DATATYPES -->
+            <header class="leftaligned">Google-Web</header>
+                <ul>
+                    <li>Datatype of the columns and rows</li>
+                    <ul>
+                        <li>FromNodeId --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
+                        <li>ToNodeId --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
+                        <li>Rows --> Items</li>
+                    </ul>
+                </ul>
+
+
+
+            <!-- UFO DATATYPES -->
+            <header class="leftaligned">UFO</header>
+                <ul>
+                    <li>Datatype of the columns and rows</li>
+                    <ul>
+                        <li>datetime --> Attribute, ordered cyclic</li>
+                        <li>city --> Attribute, categorical</li>
+                        <li>state --> Attribute, categorical</li>
+                        <li>country --> Attribute, categorical</li>
+                        <li>duration (seconds) --> Attribute, ordered, sequential</li>
+                        <li>Rows --> Items</li>
+                    </ul>
+                </ul>
         </div>
+    </div>
 
-        <div id
+    <div id="task-abstraction">
+        <header class="centered">Task Abstraction</header>
+        <div class="container">
+            <div class="flex-left">
+                <img src="img/vis1.png" alt="vis1">
+                <!-- Identify high, medium, and low level actions of visualization + target -->
+            </div>
+
+            <div class="flex_right">
+                <img src="img/vis2.png" alt="vis2">
+                <!-- Identify high, medium, and low level actions of visualization + target -->
+            </div>            
+        </div>
+    </div>
+
+    
+    <svg width="100%" height="100%">
+        <div id="decoration">
+            <pattern>
+                    <!-- circle -->
+                    <svg width="50" height="50">
+                        <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
+                    </svg>
+
+                    <svg width="50" height="50">
+                        <rect class="rectangle" width="150" height="100" />
+                    </svg>
+            </pattern>
+            
+
+        </div>
+    </svg>
+    
 
 </body>
 
@@ -82,6 +139,12 @@
         <li>https://www.w3schools.com/graphics/svg_circle.asp</li>
         <li>https://www.geeksforgeeks.org/html-tables/?ref=lbp</li>
         <li>https://www.w3schools.com/html/html_lists_ordered.asp</li>
+
+        <li>https://www.w3.org/wiki/CSS/Properties/color/keywords</li>
+        <li>https://www.scaler.com/topics/nested-list-in-html/</li>
+        <li>https://www.w3schools.com/graphics/svg_inhtml.asp</li>
+        <li>https://www.w3schools.com/graphics/svg_rect.asp</li>
+        <li>https://learntheweb.courses/topics/advanced-svg/</li>
     </div>
 
 </html>
