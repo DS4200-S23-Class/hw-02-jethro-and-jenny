@@ -134,16 +134,19 @@
     
     <svg width="100%" height="100%">
         <div id="decoration">
-            <pattern>
-                    <!-- circle -->
-                    <svg width="50" height="50">
-                        <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
-                    </svg>
+            <defs>
+                <pattern id="pls-work" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <!-- circle -->
+                        <svg width="50" height="50">
+                            <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
+                        </svg>
 
-                    <svg width="50" height="50">
-                        <rect class="rectangle" width="150" height="100" />
-                    </svg>
-            </pattern>
+                        <svg width="50" height="50">
+                            <rect class="rectangle" width="150" height="100" />
+                        </svg>
+                </pattern>
+            </defs>
+            <rect fill="url(#pls-work)"></rect>
             
 
         </div>
@@ -167,6 +170,7 @@
         <li>https://www.w3schools.com/graphics/svg_inhtml.asp</li>
         <li>https://www.w3schools.com/graphics/svg_rect.asp</li>
         <li>https://learntheweb.courses/topics/advanced-svg/</li>
+        <li>https://designmodo.com/svg-patterns/#a-closer-look-at-pattern-units</li>
     </div>
 
 </html>
