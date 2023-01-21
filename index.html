@@ -22,7 +22,7 @@
                 </tr>
                 <tr>
                     <th>Airports</th>
-                    <th><a href="https://geo-massdot.opendata.arcgis.com/datasets/17eb7e286f4e4942aeef500f5ef6bfcd_0/explore?location=42.023945%2C-71.694162%2C8.00&showTable=true">Link to Airport Data</a></th>
+                    <th><a href="Airports.csv">Link to Airport Data</a></th>
                     <th>Table</th>
                 </tr>
                 <tr>
@@ -122,11 +122,19 @@
             <div class="flex-left">
                 <img src="img/vis1.png" alt="vis1">
                 <!-- Identify high, medium, and low level actions of visualization + target -->
+                <p1 class="leftaligned">Low-level task: Determining the trend of the maximum daily temperature in Vancouver from 1979 to 2021<br>
+                <br>Medium-level task: Determining the approximate maximum temperature for each month in Vancouver from 1979 to 2021<br>
+                <br>High-level task: Determining the months in which most airport passengers would fly to/depart from Vancouver<br>
+                <br>Targets: The Seattle-Tacoma International, Vanccouver International, and Portland International Airports (possibly to help people working there determine which days during a year would experience higher/lower trips to/from Vancouver based on the fluctuating temperatures </p1>
             </div>
 
             <div class="flex_right">
                 <img src="img/vis2.png" alt="vis2">
                 <!-- Identify high, medium, and low level actions of visualization + target -->
+                <p1 class="leftaligned">Low-level task: Comparing the years in which Seattle experienced a daily mean temperature 20 degrees Fahrenheit above normal versus those of Portland<br>
+                <br>Medium-level task: Counting the total number of days Seattle and Portland experienced daily mean temperatures 20 degrees Fahrenheit above normal each decade<br>
+                <br>High-level task: Emphasizing the reality of global warming and encouraging people to think of ways to prevent it<br>
+                <br>Targets: Environmentalists who would benefit with more evidence to support their cause; Americans who live in large cities such as Seattle and Portland who don't care for the environment that much, Anyone who believes that global warming is a hoax</p1>
             </div>            
         </div>
     </div>
@@ -134,20 +142,31 @@
     
     <svg width="100%" height="100%">
         <div id="decoration">
-            <defs>
-                <pattern id="pls-work" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-                        <!-- circle -->
-                        <svg width="50" height="50">
-                            <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
-                        </svg>
-
-                        <svg width="50" height="50">
-                            <rect class="rectangle" width="150" height="100" />
-                        </svg>
-                </pattern>
-            </defs>
-            <rect fill="url(#pls-work)"></rect>
             
+            <!-- circle -->
+            <svg width="50" height="50">
+                <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
+             </svg>
+
+             <!-- rectangle -->
+             <svg width="50" height="50" style="border:3px solid black" style="margin-left:10px" style="margin-right:10px">
+                <rect class="rectangle" width="150" height="100">
+             </svg>
+
+            <!-- circle -->
+            <svg width="50" height="50">
+                <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray" style="margin-left:10px" style="margin-right:10px"/>
+             </svg>
+
+             <!-- rectangle -->
+             <svg width="50" height="50" style="border:3px solid black">
+                <rect class="rectangle" width="150" height="100">
+             </svg>
+
+             <!-- circle -->
+            <svg width="50" height="50">
+                <circle class="circle" cx="25" cy="25" r="24" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
+             </svg>
 
         </div>
     </svg>
@@ -171,6 +190,8 @@
         <li>https://www.w3schools.com/graphics/svg_rect.asp</li>
         <li>https://learntheweb.courses/topics/advanced-svg/</li>
         <li>https://designmodo.com/svg-patterns/#a-closer-look-at-pattern-units</li>
+        <li>https://stackoverflow.com/questions/14751178/adding-border-to-svg-image</li>
+        <li>https://www.freecodecamp.org/news/html-new-line-br-tag-line-break/</li>
     </div>
 
 </html>

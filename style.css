@@ -10,7 +10,7 @@ body {
 }
 
 .header-row {
-	background-color: blue;
+	background-color: skyblue;
 	text-align: center;
 }
 
@@ -40,15 +40,12 @@ body {
 }
 
 .rectangle:hover {
-  fill: lightblue;
-}
-
-
-.rectangle {
-  fill: lightskyblue;
+  fill: orange;
 }
 
 
 .circle:hover {
 	stroke-width: 3;
 }
+
+.
