@@ -11,8 +11,10 @@
 <body>
     <div id="data-abstraction">
         <div class="info">
-            <header class="centered">Dataset Types</header>
-            <table> 
+            <header class="centered">
+                <h1>Dataset Types</h1>
+            </header>
+            <table width="100%"> 
                 <tr class="header-row">
                     <th>Data</th>
                     <th>Link</th>
@@ -20,17 +22,17 @@
                 </tr>
                 <tr>
                     <th>Airports</th>
-                    <th>https://geo-massdot.opendata.arcgis.com/datasets/17eb7e286f4e4942aeef500f5ef6bfcd_0/explore?location=42.023945%2C-71.694162%2C8.00&showTable=true</th>
+                    <th><a href="https://geo-massdot.opendata.arcgis.com/datasets/17eb7e286f4e4942aeef500f5ef6bfcd_0/explore?location=42.023945%2C-71.694162%2C8.00&showTable=true">Link to Airport Data</a></th>
                     <th>Table</th>
                 </tr>
                 <tr>
                     <th>Google Web</th>
-                    <th>hhttps://snap.stanford.edu/data/web-Google.html</th>
+                    <th><a href="https://snap.stanford.edu/data/web-Google.html">Link to Google-Web Data</a></th>
                     <th>Network</th>
                 </tr>
                 <tr>
                     <th>UFO Sightings</th>
-                    <th>https://www.kaggle.com/datasets/NUFORC/ufo-sightings?resource=download</th>
+                    <th><a href="https://www.kaggle.com/datasets/NUFORC/ufo-sightings?resource=download">Link to UFO Sightings Data</a></th>
                     <th>Table</th>
                 </tr>
             </table>
@@ -38,64 +40,84 @@
 
         <div class="info">
 
-            <header class="centered">Data Types</header>
+            <header class="centered">
+                <h1>Data Types</h1>
+            </header>
 
 
 
             <!-- AIRPORT DATATYPES -->
-            <header class="leftaligned">Airports</header>
+            <header class="leftaligned">
+                <h2>Airports</h2>
+            </header>
                 <ul>
-                    <li>Datatype of the columns and rows</li>
-                    <ul>
-                        <li>AIRPORT_NAME --> Attribute</li>
+                    <li>Rows --> Items</li>
+                    <li>AIRPORT_NAME --> Attribute</li>
                         <ul>
                             <li>Categorical</li>
                         </ul>
-                        <li>LATITUDE --> Position</li>
-                        <li>LONGITUDE --> Position</li>
-                        <li>Rows --> Items</li>
-                    </ul>
+                    <li>LATITUDE --> Position</li>
+                    <li>LONGITUDE --> Position</li>
                 </ul>
 
 
 
             <!-- GOOGLE WEB DATATYPES -->
-            <header class="leftaligned">Google-Web</header>
+            <header class="leftaligned">
+                <h2>Google-Web</h2>
+            </header>
                 <ul>
-                    <li>Datatype of the columns and rows</li>
-                    <ul>
-                        <li>FromNodeId --> Attribute</li>
+                    <li>Rows --> Items</li>
+                    <li>FromNodeId --> Attribute</li>
                         <ul>
                             <li>Categorical</li>
                         </ul>
-                        <li>ToNodeId --> Attribute</li>
+                    <li>ToNodeId --> Attribute</li>
                         <ul>
                             <li>Categorical</li>
                         </ul>
-                        <li>Rows --> Items</li>
-                    </ul>
+                        
                 </ul>
 
 
 
             <!-- UFO DATATYPES -->
-            <header class="leftaligned">UFO</header>
+            <header class="leftaligned">
+                <h2>UFO</h2>
+            </header>
                 <ul>
-                    <li>Datatype of the columns and rows</li>
-                    <ul>
-                        <li>datetime --> Attribute, ordered cyclic</li>
-                        <li>city --> Attribute, categorical</li>
-                        <li>state --> Attribute, categorical</li>
-                        <li>country --> Attribute, categorical</li>
-                        <li>duration (seconds) --> Attribute, ordered, sequential</li>
-                        <li>Rows --> Items</li>
-                    </ul>
+                    <li>Rows --> Items</li>
+                    <li>datetime --> Attribute</li>
+                        <ul>
+                            <li>Ordered</li>
+                            <li>Cyclic</li>
+                        </ul>
+                    <li>city --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
+                    <li>state --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
+                    <li>country --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
+                    <li>duration (seconds) --> Attribute</li>
+                        <ul>
+                            <li>Ordered</li>
+                            <li>Sequential</li>
+                        </ul>
+                 
                 </ul>
         </div>
     </div>
 
     <div id="task-abstraction">
-        <header class="centered">Task Abstraction</header>
+        <header class="centered">
+            <h1>Task Abstraction</h1>
+        </header>
         <div class="container">
             <div class="flex-left">
                 <img src="img/vis1.png" alt="vis1">
@@ -130,7 +152,7 @@
 
 </body>
 
-<h1 class="centered">Acknowledgements</h1>
+<h3 class="centered">Acknowledgements</h3>
     <div id="d3">
         <ul>
         <li>https://stackoverflow.com/questions/38752103/how-do-a-specify-the-color-of-a-specific-table-row-in-an-external-css-file</li>
