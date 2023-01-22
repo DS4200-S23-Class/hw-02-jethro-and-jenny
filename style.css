@@ -25,14 +25,11 @@ body {
 }
 
 .flex-left {
-	width: 75%;
-	height: 100vh;
-	justify-content: center;
+	flex: 1;
 }
 
 .flex-right {
-	width: 25;
-	justify-content: center;
+	flex: 1;
 }
 
 .rectangle {
