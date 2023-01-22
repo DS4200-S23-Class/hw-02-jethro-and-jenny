@@ -14,6 +14,10 @@ body {
 	text-align: center;
 }
 
+.table-text {
+	font-weight: normal;
+}
+
 .leftaligned {
 	text-align: left;
 }
