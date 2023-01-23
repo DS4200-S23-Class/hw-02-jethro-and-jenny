@@ -18,6 +18,11 @@ body {
 	font-weight: normal;
 }
 
+#tasks {
+	color: midnightblue;
+	font-size:12px;
+}
+
 .leftaligned {
 	text-align: left;
 }
@@ -25,6 +30,9 @@ body {
 .container {
 	display: flex;
 	flex-direction: row;
+	padding-bottom: 100px;
+	position: relative;
+	clear: both;
 }
 
 .image-size{
