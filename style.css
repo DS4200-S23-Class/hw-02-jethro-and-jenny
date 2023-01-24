@@ -30,7 +30,7 @@ body {
 .container {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 521px;
+	padding-bottom: 600px;
 	position: relative;
 	clear: both;
 	align-items: center;
