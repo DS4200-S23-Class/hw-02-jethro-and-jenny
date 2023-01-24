@@ -1,5 +1,6 @@
 /* Styling goes in this file */
 
+/*Settiing all font to Arial*/
 body {
 	font-family: Arial;
 }
@@ -54,10 +55,17 @@ body {
 .rectangle {
   fill: lightskyblue;
   width: 100%;
+  stroke-width:3px solid black;
+  
+  margin-left:10px;
+  margin-right:10px;
 }
 
 .rectangle:hover {
   fill: orange;
+  stroke-width:3px solid black;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 .circle: {
