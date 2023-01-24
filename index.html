@@ -47,12 +47,16 @@
 
 
 
-            <!-- AIRPORT DATATYPES -->
+            <!-- Identifying Airport datatypes -->
+            <!-- Inserting title to clarify which dataset will be discussed -->
             <header class="leftaligned">
                 <h2>Airports</h2>
             </header>
                 <ul>
+                    <!-- Identifying row datatype -->
                     <li>Rows --> Items</li>
+
+                    <!-- Identifying column datatypes -->
                     <li>AIRPORT_NAME --> Attribute</li>
                         <ul>
                             <li>Categorical</li>
@@ -63,12 +67,16 @@
 
 
 
-            <!-- GOOGLE WEB DATATYPES -->
+            <!-- Identifying Google-Web datatypes -->
+            <!-- Inserting title to clarify which dataset will be discussed -->
             <header class="leftaligned">
                 <h2>Google-Web</h2>
             </header>
                 <ul>
+                    <!-- Identifying row datatype -->
                     <li>Rows --> Link</li>
+
+                    <!-- Identifying column datatypes -->
                     <li>FromNodeId --> Attribute</li>
                         <ul>
                             <li>Categorical</li>
@@ -82,12 +90,16 @@
 
 
 
-            <!-- UFO DATATYPES -->
+            <!-- Identifying UFO datatypes -->
+            <!-- Inserting title to clarify which dataset will be discussed -->
             <header class="leftaligned">
                 <h2>UFO</h2>
             </header>
                 <ul>
+                    <!-- Identifying row datatype -->
                     <li>Rows --> Items</li>
+
+                    <!-- Identifying column datatypes -->
                     <li>datetime --> Attribute</li>
                         <ul>
                             <li>Ordered</li>
@@ -105,6 +117,10 @@
                         <ul>
                             <li>Categorical</li>
                         </ul>
+                    <li>shape --> Attribute</li>
+                        <ul>
+                            <li>Categorical</li>
+                        </ul>
                     <li>duration (seconds) --> Attribute</li>
                         <ul>
                             <li>Ordered</li>
@@ -117,28 +133,56 @@
 
     <div id="task-abstraction">
 
+        <!-- Inserting the title of a new section in the webpage --> 
         <header class="centered">
             <h1>Task Abstraction</h1>
         </header>
 
         <div class="container">
 
+            <!-- Distinguishing the right side of the flexbox -->
             <div class="flex-left">
+
+                <!-- Inserting the first img -->
                 <img class="image-size" src="img/vis1.png" alt="vis1">
-                <!-- Identify high, medium, and low level actions of visualization + target -->
-                <p1 id="tasks" class="leftaligned"><br>Low-level task: Determining the trend of the maximum daily temperature in Vancouver from 1979 to 2021<br>
-                <br>Medium-level task: Determining the approximate maximum temperature for each month in Vancouver from 1979 to 2021<br>
-                <br>High-level task: Determining the months in which most airport passengers would fly to/depart from Vancouver<br>
-                <br>Targets: The Seattle-Tacoma International, Vancouver International, and Portland International Airports (possibly to help people working there determine which days during a year would experience higher/lower trips to/from Vancouver based on the fluctuating temperatures </p1>
+
+                <!-- Indentifying high, medium, and low level actions of visualization + target -->
+                <p1 id="tasks" class="leftaligned">
+                    <br>High-level task: 
+                        <li>Consume --> Present: All of the daily maximum temperatures from 1979 - 2021 are laid out in such a way that suggests the creator wants to communicate a message. There also appears to be no visualization that stems from this one.</li>
+                    <br>
+                    <br>Medium-level task: 
+                        <li>Search --> Browse: The location is Vancouver, but the target is unknown because there are many points on the visualization.</li>
+                    <br>
+                    <br>Low-level task: 
+                        <li>Query --> Compare: The creator emphasized the temperatures of the last three days by making them red and labeling them, which makes it seem like they want users to compare those values to the others.</li>
+                    <br>
+                    
+                    <br>Targets:  
+                        <li>All Data --> Trends: The visualization displays all of the data collected thus far. The points also form a general trend where August is usually the hottest month of the year.</li>
+                </p1>
             </div>
 
+            <!-- Distinguishing the right side of the flexbox -->
             <div class="flex-right">
+
+                <!-- Inserting the second img -->
                 <img class="image-size" src="img/vis2.png" alt="vis2">
-                <!-- Identify high, medium, and low level actions of visualization + target -->
-                <p1 id="tasks" class="leftaligned"><br>Low-level task: Comparing the years in which Seattle experienced a daily mean temperature 20 degrees Fahrenheit above normal versus those of Portland<br>
-                <br>Medium-level task: Counting the total number of days Seattle and Portland experienced daily mean temperatures 20 degrees Fahrenheit above normal each decade<br>
-                <br>High-level task: Emphasizing the reality of global warming and encouraging people to think of ways to prevent it<br>
-                <br>Targets: Environmentalists who would benefit with more evidence to support their cause, Americans who live in large cities such as Seattle and Portland who don't care for the environment that much, Anyone who believes that global warming is a hoax</p1>
+
+                <!-- Identifying high, medium, and low level actions of visualization + target -->
+                <p1 id="tasks" class="leftaligned">
+                    <br>High-level task: 
+                        <li>Consume --> Present: All the data collected is being displayed across two visualizations. It does not seem like the visualizations/data will be used to produce something else.</li>
+                    <br>
+                    <br>Medium-level task: 
+                        <li>Search --> Browse: Locations (Seattle and Portland) are known. Target is unknown?</li>
+                    <br>
+                    <br>Low-level task: 
+                        <li>Query --> Compare: There are two visualizations within this image, both with the same type of axis. This can be interpreted as the creator wanting the user to compare the data from both cities to each other.</li>
+                    <br>
+                    <br>Targets:  
+                        <li>Attributes --> Many --> Similarity: Users are looking at two datasets, that contain the same type of data but for different cities, side by side.</li>
+                </p1>
             </div>  
 
         </div>
@@ -171,16 +215,13 @@
             <svg width="100" height="100">
                 <circle class="circle" cx="50" cy="50" r="40" stroke="black" stroke-width="0" fill-opacity="50%" fill="gray"/>
              </svg>
-         </pattern>
-
-
-        <rect x="0" y="0" width="100%" height="100%" fill="url(#shape-pattern)"></rect>
         </div>
     </svg>
     
 
 </body>
 
+<!-- Resources used for the assignment -->
 <h3 class="centered">Acknowledgements</h3>
     <div id="d3">
         <ul>

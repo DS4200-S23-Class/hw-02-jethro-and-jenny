@@ -19,7 +19,7 @@ body {
 }
 
 #tasks {
-	color: midnightblue;
+	color: indigo;
 	font-size:12px;
 }
 
@@ -43,11 +43,12 @@ body {
 }
 
 .flex-left {
-	max-width: 50%;
+	width: 50%;
+	height: 100vh;
 	flex-shrink:3}
 
 .flex-right {
-	max-width: 50%;
+	width: 50%;
 }
 
 .image {
