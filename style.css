@@ -1,6 +1,6 @@
 /* Styling goes in this file */
 
-/*Settiing all font to Arial*/
+/*Setting all font to Arial*/
 body {
 	font-family: Arial;
 }
@@ -10,39 +10,43 @@ body {
 	text-align: center;
 }
 
+/* Adjusts the color and text formatting of the header of a table */
 .header-row {
 	background-color: skyblue;
 	text-align: center;
 }
 
+/* Unbolds the font of a table */
 .table-text {
 	font-weight: normal;
 }
 
+/* Changes the size of text to 12 pixels and makes it indigo */
 #tasks {
 	color: indigo;
 	font-size:12px;
 }
 
+/* Aligns text to the left */
 .leftaligned {
 	text-align: left;
 }
 
+/* Creates a flex container to make 2 flex columns with */
 .container {
 	display: flex;
 	flex-direction: row;
 	padding-bottom: 600px;
-/*	position: relative;*/
-/*	clear: both;
-	align-items: center;*/
 }
 
+/* Resizes an image so it can fit in a flex column */
 .image-size{
 	height:auto;
 	width: 100%;
 	align-items: center;
 }
 
+/* One column made with flexbox css */
 .flex-left {
 	width: 50%;
 	height: 100vh;
@@ -50,15 +54,17 @@ body {
 
 }
 
+/* An adjacent column made with flexbox css */
 .flex-right {
 	width: 50%;
 	align-items: center;
 }
 
+/* A rectangle to decorate our webpage */
 .rectangle {
-  fill: lightskyblue; 
+  fill: yellow; 
   width: 100%;
-  stroke: black;
+  stroke: forestgreen;
   stroke-width:5px;
   margin-left:10px;
   margin-right:10px;
@@ -67,10 +73,12 @@ body {
   
 }
 
+/* The rectangle temporarily changes color as a mouse hovers over it */
 .rectangle:hover {
   fill: orange;
 }
 
+/* A circle to decorate our webpage */
 .circle: {
 	width: 100%; 
 	opacity: 0.5;
@@ -78,14 +86,17 @@ body {
 	margin-right:10px;
 }
 
+/* The circle temporarily has a border as a mouse hovers over it */
 .circle:hover {
 	width: 100%;
 	stroke-width: 3px;
-	stroke: black;
+	stroke: darkviolet;
 	margin-left:10px;
 	margin-right:10px;
 }
 
+/* Maintains the spacing of the shapes as the page width changes. */
+/* Also sets the shapes an equal distance apart from each other. */
 #decoration {
 	display: flex;
 	justify-content: space-evenly;
