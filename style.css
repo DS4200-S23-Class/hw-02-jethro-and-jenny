@@ -1,6 +1,6 @@
 /* Styling goes in this file */
 
-/*Setting all font to Arial*/
+/*Setting all fonts to Arial*/
 body {
 	font-family: Arial;
 }
@@ -60,11 +60,11 @@ body {
 	align-items: center;
 }
 
-/* A rectangle to decorate our webpage */
+/* A rectangle to decorate our webpage with*/
 .rectangle {
-  fill: yellow; 
+  fill: palegreen; 
   width: 100%;
-  stroke: forestgreen;
+  stroke: darkgoldenrod;
   stroke-width:5px;
   margin-left:10px;
   margin-right:10px;
@@ -78,7 +78,7 @@ body {
   fill: orange;
 }
 
-/* A circle to decorate our webpage */
+/* A circle to decorate our webpage with*/
 .circle: {
 	width: 100%; 
 	opacity: 0.5;
